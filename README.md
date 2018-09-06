@@ -6,7 +6,9 @@ To be added
 
 # Docker start
 
-To be added
+```
+docker run -it --name lnu_turtle_dev -p 8080:8080 -p 8090:8090 -p 9090:9090 -e DISPLAY -e LOCAL_USER_ID=$(id -u) -v /tmp/.X11-unix:/tmp/.X11-unix:rw ldemk/LNU_Turtle:latest
+```
 
 # Designation:
 
