@@ -2,12 +2,23 @@
 The Turtlebot3 project developed by LNU students
 
 # Docker Installation
-To be added
+Install Desktop OS Ubuntu 16.04 LTS
 
-# Docker start
+Install Docker-CE using the following [instructions](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+
+# Docker run
+
+The first time You start the docker, You have to execute the following command
 
 ```
-docker run -it --name lnu_turtle_dev -p 8080:8080 -p 8090:8090 -p 9090:9090 -e DISPLAY -e LOCAL_USER_ID=$(id -u) -v /tmp/.X11-unix:/tmp/.X11-unix:rw ldemk/LNU_Turtle:latest
+docker run -it --name lnu_turtle_dev -p 8080:8080 -p 8090:8090 -p 9090:9090 -e DISPLAY -e LOCAL_USER_ID=$(id -u) -v /tmp/.X11-unix:/tmp/.X11-unix:rw lyubomyrd/lnu_turtle:latest
+```
+
+# Docker run
+
+Next times, please execute
+```
+sudo docker start lnu_turtle_dev
 ```
 
 # Designation:
