@@ -74,6 +74,9 @@ After this step You can close 1R and 2R from mapping.
 
 1R) roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 
+# Development
+Type pycharm to run PyCharm-community
+
 
 # Troubleshooting
 See wiki for Troubleshooting
