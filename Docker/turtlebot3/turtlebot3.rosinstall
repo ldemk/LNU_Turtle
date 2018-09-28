@@ -12,3 +12,9 @@
     uri: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
     version: kinetic-devel
     local-name: turtlebot3_msgs
+    
+- git:
+    uri: https://github.com/ldemk/LNU_Turtle.git
+    version: kinetic-devel
+    local-name: turtlebot3_msgs
+    
