@@ -1,5 +1,5 @@
 # LNU_Turtle
-The Turtlebot3 project developed by LNU students
+The Turtlebot3 project developed by LNU students.
 
 # Docker Installation
 Install Desktop OS Ubuntu 16.04 LTS
